@@ -8,7 +8,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     
-    <!-- Font Awesome (for icons) -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Custom CSS -->
@@ -16,76 +16,67 @@
 </head>
 <body>
 
-    <!-- Navigation -->
+    <!-- Navigation (Top Right) -->
     <nav id="navbar">
-        <div class="container nav-container">
-            <div class="logo">SAI AKSHITHA GADDAM</div>
-            <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <!-- External Links -->
-                <li><a href="https://github.com/Saiakshithagaddamsag" target="_blank">GitHub</a></li>
-            </ul>
-        </div>
+        <ul class="nav-links">
+            <li><a href="#home">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="https://github.com/Saiakshithagaddamsag" target="_blank">Github</a></li>
+            <li><a href="https://linkedin.com/in/saiakshithag" target="_blank">Linkedin</a></li>
+            <!-- Resume and CV Links -->
+            <li><a href="Resume.pdf" target="_blank" class="doc-link">Resume</a></li>
+            <li><a href="CV.pdf" target="_blank" class="doc-link">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
-    <!-- Hero Section (Particles Background) -->
+    <!-- Main Hero Section (Split Layout) -->
     <section id="home">
         <div id="particles-js"></div>
-        <div class="hero-content">
-            <h1>SAI AKSHITHA GADDAM</h1>
+        <div class="container hero-wrapper">
             
-            <div class="social-icons">
-                <a href="https://github.com/Saiakshithagaddamsag" target="_blank">
-                    <i class="fab fa-github"></i>
-                    <span>Github</span>
-                </a>
-                <a href="https://linkedin.com/in/saiakshithag" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                    <span>Linkedin</span>
-                </a>
-                <a href="https://www.salesforce.com/trailblazer/sgaddam22" target="_blank">
-                    <i class="fab fa-salesforce"></i>
-                    <span>Trailblazer</span>
-                </a>
+            <!-- LEFT SIDE: Profile Picture -->
+            <div class="hero-left">
+                <div class="profile-frame">
+                    <!-- Ensure profile.jpg is in assets/images/ -->
+                    <img src="assets/images/profile.jpg" alt="Sai Akshitha Gaddam">
+                </div>
             </div>
 
-            <div class="hero-skills">
-                <p>| Salesforce Architect | AI & Machine Learning | Python |</p>
-                <p>| CI/CD & DevOps | Automation | PhD Researcher |</p>
-            </div>
-            
-            <a href="#about" class="scroll-down">
-                <i class="fas fa-chevron-down"></i>
-            </a>
-        </div>
-    </section>
+            <!-- RIGHT SIDE: Details -->
+            <div class="hero-right">
+                <h1>SAI AKSHITHA GADDAM</h1>
+                
+                <div class="social-icons">
+                    <a href="https://github.com/Saiakshithagaddamsag" target="_blank">
+                        <i class="fab fa-github"></i> Github
+                    </a>
+                    <a href="https://linkedin.com/in/saiakshithag" target="_blank">
+                        <i class="fab fa-linkedin"></i> Linkedin
+                    </a>
+                    <a href="mailto:your-email@example.com">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container about-wrapper">
-            <div class="profile-img">
-                <!-- Ensure you have a file named profile.jpg in assets/images/ -->
-                <img src="assets/images/profile.jpg" alt="Sai Akshitha Gaddam">
-            </div>
-            <div class="about-text">
-                <h2>About Me</h2>
-                <p>
-                    I have extensive experience as a <strong>Senior Salesforce Engineer</strong> and <strong>PhD Researcher</strong>. 
-                    I wear multiple hats as the Founder of <strong>AI TestGenie</strong> and a 15x Certified Salesforce Architect. 
-                    My work focuses on bridging advanced technical solutions with real-world business impact.
-                </p>
-                <p>
-                    While hard engineering problems are intrinsically fun to tackle, I'm most attracted to solving real customer 
-                    problems with business justification. I specialize in building scalable backend services, AI models, 
-                    and automation frameworks.
-                </p>
-                <a href="Resume.pdf" class="btn-download" download>
-                    <i class="fas fa-download"></i> Download Resume
-                </a>
+                <div class="hero-skills">
+                    <p>| Salesforce Architect | AI & Machine Learning | Python | Neural Networks |</p>
+                    <p>| CI/CD & DevOps | Automation | PhD Researcher |</p>
+                </div>
+
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        I have extensive experience as a <strong>Senior Salesforce Engineer</strong> and <strong>PhD Researcher</strong>. 
+                        I wear multiple hats as the Founder of <strong>AI TestGenie</strong> and a 15x Certified Salesforce Architect. 
+                        My work focuses on bridging advanced technical solutions with real-world business impact.
+                    </p>
+                    <p>
+                        While hard engineering problems are intrinsically fun to tackle, I'm most attracted to solving real customer 
+                        problems with business justification. I specialize in building scalable backend services, AI models, 
+                        and automation frameworks.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
@@ -101,10 +92,10 @@
                 <div class="skill-item">Machine Learning</div>
                 <div class="skill-item">Neural Networks</div>
                 <div class="skill-item">CI/CD (DevOps)</div>
-                <div class="skill-item">Docker</div>
                 <div class="skill-item">Test Automation</div>
-                <div class="skill-item">Scikit-Learn</div>
                 <div class="skill-item">Deep Learning</div>
+                <div class="skill-item">Docker</div>
+                <div class="skill-item">Distributed Systems</div>
             </div>
         </div>
     </section>
@@ -112,19 +103,13 @@
     <!-- Projects Section -->
     <section id="projects">
         <div class="container">
-            <h2 class="section-title">Projects & Work</h2>
+            <h2 class="section-title">Projects</h2>
             
-            <div class="project-item">
+             <div class="project-item">
                 <h3>AI TestGenie (Salesforce)</h3>
                 <p class="role">Founder & Lead Developer</p>
                 <p>Designed and developed an AI-driven testing framework for Salesforce environments to automate regression testing.</p>
                 <a href="https://github.com/Saiakshithagaddamsag/AITestGenie" class="project-link" target="_blank">View on GitHub</a>
-            </div>
-
-            <div class="project-item">
-                <h3>Senior Salesforce Engineer @ ADM</h3>
-                <p class="role">Salesforce Architect</p>
-                <p>Leading architectural decisions and development for enterprise-scale Salesforce implementations.</p>
             </div>
 
             <div class="project-item">
@@ -140,12 +125,11 @@
     <section id="contact" class="portal-section">
         <div class="container">
             <h2 class="section-title">Contact Portal</h2>
-            
             <div class="portal-container">
-                <!-- Left Side: Contact Info -->
+                <!-- Contact Info Left -->
                 <div class="contact-info">
-                    <h3>Let's Connect</h3>
-                    <p>Interested in Salesforce architecture, AI research, or collaboration? Drop a message below.</p>
+                    <h3>Get in Touch</h3>
+                    <p>Interested in collaboration? Drop a message below.</p>
                     
                     <div class="info-item">
                         <i class="fas fa-map-marker-alt"></i>
@@ -153,42 +137,29 @@
                     </div>
                     <div class="info-item">
                         <i class="fas fa-envelope"></i>
-                        <!-- Replace with your actual email -->
                         <span>your-email@example.com</span>
                     </div>
-                    <div class="info-item">
-                        <i class="fab fa-linkedin"></i>
-                        <span>linkedin.com/in/saiakshithag</span>
-                    </div>
                 </div>
-    
-                <!-- Right Side: The Webform -->
-                <!-- IMPORTANT: Register at Formspree.io and paste your ID below -->
+
+                <!-- Form Right -->
+                <!-- Replace YOUR_FORMSPREE_ID with your actual ID from formspree.io -->
                 <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="portal-form">
-                    
                     <div class="input-group">
                         <input type="text" name="name" id="name" required>
                         <label for="name">Full Name</label>
                         <span class="bar"></span>
                     </div>
-    
                     <div class="input-group">
                         <input type="email" name="email" id="email" required>
                         <label for="email">Email Address</label>
                         <span class="bar"></span>
                     </div>
-    
                     <div class="input-group">
-                        <textarea name="message" id="message" rows="4" required></textarea>
+                        <textarea name="message" id="message" rows="3" required></textarea>
                         <label for="message">Your Message</label>
                         <span class="bar"></span>
                     </div>
-    
-                    <button type="submit" class="portal-btn">
-                        <span>Send Message</span>
-                        <i class="fas fa-paper-plane"></i>
-                    </button>
-                    
+                    <button type="submit" class="portal-btn">Send Message <i class="fas fa-paper-plane"></i></button>
                     <p id="form-status"></p>
                 </form>
             </div>
@@ -197,20 +168,11 @@
 
     <!-- Footer -->
     <footer>
-        <div class="container">
-            <p>&copy; 2025 Sai Akshitha Gaddam. All rights reserved.</p>
-        </div>
+        <p>&copy; 2025 Sai Akshitha Gaddam. All rights reserved.</p>
     </footer>
 
-    <!-- Scroll To Top Button -->
-    <a href="#" class="to-top">
-        <i class="fas fa-chevron-up"></i>
-    </a>
-
     <!-- Scripts -->
-    <!-- Particles.js Library -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <!-- Custom Main JS -->
     <script src="assets/js/main.js"></script>
 </body>
 </html>
