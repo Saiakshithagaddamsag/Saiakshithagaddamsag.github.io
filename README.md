@@ -24,7 +24,7 @@ Founder of AI TestGenie for Salesforce | Senior Salesforce Engineer @ ADM | 15x 
 ## Contact & Social
 - [LinkedIn](https://linkedin.com/in/saiakshithag)
 - [Salesforce Trailblazer Profile](https://www.salesforce.com/trailblazer/sgaddam22)
-- Email: your-email@example.com
+- Email: saiakshitha.gaddam@outlook.com
 - GitHub: [Saiakshithagaddamsag](https://github.com/Saiakshithagaddamsag)
 
 ---
