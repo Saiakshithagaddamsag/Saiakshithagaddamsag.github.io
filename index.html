@@ -19,64 +19,64 @@
     <!-- Navigation (Top Right) -->
     <nav id="navbar">
         <ul class="nav-links">
-            <li><a href="#home">About</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="https://github.com/Saiakshithagaddamsag" target="_blank">Github</a></li>
-            <li><a href="https://linkedin.com/in/saiakshithag" target="_blank">Linkedin</a></li>
-            <!-- Resume and CV Links -->
-            <li><a href="Resume.pdf" target="_blank" class="doc-link">Resume</a></li>
-            <li><a href="CV.pdf" target="_blank" class="doc-link">CV</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
+            <li><a href="https://github.com/Saiakshithagaddamsag" target="_blank">GitHub</a></li>
         </ul>
     </nav>
 
-    <!-- Main Hero Section (Split Layout) -->
+    <!-- Hero Section (Split Layout) -->
     <section id="home">
         <div id="particles-js"></div>
         <div class="container hero-wrapper">
             
-            <!-- LEFT SIDE: Profile Picture -->
+            <!-- LEFT SIDE: Name, Contact Details, Socials, Resume -->
             <div class="hero-left">
-                <div class="profile-frame">
-                    <!-- Ensure profile.jpg is in assets/images/ -->
-                    <img src="assets/images/profile.jpg" alt="Sai Akshitha Gaddam">
-                </div>
-            </div>
-
-            <!-- RIGHT SIDE: Details -->
-            <div class="hero-right">
                 <h1>SAI AKSHITHA GADDAM</h1>
                 
+                <div class="contact-header-details">
+                    <p><i class="fas fa-envelope"></i> gsaiak.94@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> (603) 858-9590</p>
+                </div>
+
+                <div class="titles-box">
+                    <p>Salesforce Certified Architect</p>
+                    <p>15 Salesforce Certifications</p>
+                    <p>Founder of AI Test Genie</p>
+                    <p>Trailblazer Leader</p>
+                </div>
+
+                <!-- Clickable Social Icons -->
                 <div class="social-icons">
-                    <a href="https://github.com/Saiakshithagaddamsag" target="_blank">
-                        <i class="fab fa-github"></i> Github
+                    <a href="https://github.com/Saiakshithagaddamsag" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
                     </a>
-                    <a href="https://linkedin.com/in/saiakshithag" target="_blank">
-                        <i class="fab fa-linkedin"></i> Linkedin
+                    <a href="https://linkedin.com/in/saiakshithag" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="mailto:your-email@example.com">
-                        <i class="fas fa-envelope"></i> Email
+                    <a href="https://www.salesforce.com/trailblazer/sgaddam22" target="_blank" title="Trailblazer">
+                        <i class="fab fa-salesforce"></i>
                     </a>
                 </div>
 
-                <div class="hero-skills">
-                    <p>| Salesforce Architect | AI & Machine Learning | Python | Neural Networks |</p>
-                    <p>| CI/CD & DevOps | Automation | PhD Researcher |</p>
-                </div>
+                <a href="Resume.pdf" class="btn-download" target="_blank">
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
 
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>
-                        I have extensive experience as a <strong>Senior Salesforce Engineer</strong> and <strong>PhD Researcher</strong>. 
-                        I wear multiple hats as the Founder of <strong>AI TestGenie</strong> and a 15x Certified Salesforce Architect. 
-                        My work focuses on bridging advanced technical solutions with real-world business impact.
-                    </p>
-                    <p>
-                        While hard engineering problems are intrinsically fun to tackle, I'm most attracted to solving real customer 
-                        problems with business justification. I specialize in building scalable backend services, AI models, 
-                        and automation frameworks.
-                    </p>
-                </div>
+            <!-- RIGHT SIDE: Summary / About -->
+            <div class="hero-right">
+                <h2>About Me & Summary</h2>
+                <p>
+                    Salesforce Certified Architect with 15 Salesforce Certifications and 10+ years of experience designing, implementing, and optimizing CRM solutions across public services, healthcare, finance, and ecommerce. Skilled in full project lifecycle management from architecture and implementation to governance, ensuring scalable, secure, and maintainable systems tailored to complex business environments.
+                </p>
+                <p>
+                    Founder of AI Test Genie, streamlining UI-based test documentation and execution, and creator of Salesforce Copilot, an AI-powered Chrome extension providing developers with real-time metadata insights and dependency analysis. I am passionate about clarity, practicality, and bridging advanced technical solutions with real-world business impact.
+                </p>
             </div>
         </div>
     </section>
@@ -86,89 +86,143 @@
         <div class="container">
             <h2 class="section-title">Technical Skills</h2>
             <div class="skills-grid">
-                <div class="skill-item">Salesforce Architecture</div>
-                <div class="skill-item">Apex & LWC</div>
-                <div class="skill-item">Python</div>
-                <div class="skill-item">Machine Learning</div>
-                <div class="skill-item">Neural Networks</div>
-                <div class="skill-item">CI/CD (DevOps)</div>
-                <div class="skill-item">Test Automation</div>
-                <div class="skill-item">Deep Learning</div>
-                <div class="skill-item">Docker</div>
-                <div class="skill-item">Distributed Systems</div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            
-             <div class="project-item">
-                <h3>AI TestGenie (Salesforce)</h3>
-                <p class="role">Founder & Lead Developer</p>
-                <p>Designed and developed an AI-driven testing framework for Salesforce environments to automate regression testing.</p>
-                <a href="https://github.com/Saiakshithagaddamsag/AITestGenie" class="project-link" target="_blank">View on GitHub</a>
-            </div>
-
-            <div class="project-item">
-                <h3>Computational Intelligence</h3>
-                <p class="role">Neural Networks Research</p>
-                <p>Deep learning projects utilizing Python, NumPy, Pandas, and Scikit-Learn for predictive modeling.</p>
-                <a href="https://github.com/Saiakshithagaddamsag/ComputationalIntelligence_NeuralNetworks" class="project-link" target="_blank">View Repository</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Portal Section -->
-    <section id="contact" class="portal-section">
-        <div class="container">
-            <h2 class="section-title">Contact Portal</h2>
-            <div class="portal-container">
-                <!-- Contact Info Left -->
-                <div class="contact-info">
-                    <h3>Get in Touch</h3>
-                    <p>Interested in collaboration? Drop a message below.</p>
-                    
-                    <div class="info-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>San Francisco Bay Area, CA</span>
-                    </div>
-                    <div class="info-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>your-email@example.com</span>
-                    </div>
+                <div class="skill-category">
+                    <h3>Salesforce CRM</h3>
+                    <p>Visualforce, LWC, Aura, Sales/Service/Marketing/Experience Cloud, Flows, Omni-Channel</p>
                 </div>
+                <div class="skill-category">
+                    <h3>Development</h3>
+                    <p>Apex (Classes, Triggers, Batch), SOQL/SOSL, Java, JavaScript, HTML, CSS, SFDX, REST/SOAP APIs</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Ops</h3>
+                    <p>VS Code, Jenkins, Git, Selenium, CI/CD, Azure DevOps, Docker, ANT</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                <!-- Form Right -->
-                <!-- Replace YOUR_FORMSPREE_ID with your actual ID from formspree.io -->
-                <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="portal-form">
-                    <div class="input-group">
-                        <input type="text" name="name" id="name" required>
-                        <label for="name">Full Name</label>
-                        <span class="bar"></span>
-                    </div>
-                    <div class="input-group">
-                        <input type="email" name="email" id="email" required>
-                        <label for="email">Email Address</label>
-                        <span class="bar"></span>
-                    </div>
-                    <div class="input-group">
-                        <textarea name="message" id="message" rows="3" required></textarea>
-                        <label for="message">Your Message</label>
-                        <span class="bar"></span>
-                    </div>
-                    <button type="submit" class="portal-btn">Send Message <i class="fas fa-paper-plane"></i></button>
-                    <p id="form-status"></p>
-                </form>
+    <!-- Professional Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+
+            <!-- JOB 1 -->
+            <div class="job-card">
+                <div class="job-header">
+                    <h3>Archer-Daniels-Midland (ADM)</h3>
+                    <span class="job-role">Senior Salesforce Developer PTC</span>
+                    <span class="job-date">August 2022 – Present</span>
+                </div>
+                <ul class="job-details">
+                    <li>Developed scalable Salesforce platforms, reusable services, and Sales Cloud capabilities.</li>
+                    <li>Designed and implemented a multi-language translation solution to support global users.</li>
+                    <li>Implemented Salesforce integrations using REST, SOAP APIs, OAuth, and Single Sign-On.</li>
+                    <li>Implemented an automated code review integration pipeline using Azure DevOps, leveraging PMD and AI-driven rule sets.</li>
+                </ul>
+            </div>
+
+            <!-- JOB 2 -->
+            <div class="job-card">
+                <div class="job-header">
+                    <h3>Deloitte</h3>
+                    <span class="job-role">Senior Salesforce Developer</span>
+                    <span class="job-date">August 2020 – August 2022</span>
+                </div>
+                <ul class="job-details">
+                    <li>Designed and deployed Salesforce projects from scratch, implementing solutions across Community Cloud and Lightning Flows.</li>
+                    <li>Configured standard and custom objects including Accounts, Contacts, Leads, Opportunities, and Campaigns.</li>
+                    <li>Designed secure and scalable data models and implemented role-based security solutions.</li>
+                    <li>Developed Lightning Aura Components and implemented Territories and Lead assignment rules.</li>
+                </ul>
+            </div>
+
+            <!-- JOB 3 -->
+            <div class="job-card">
+                <div class="job-header">
+                    <h3>USAA</h3>
+                    <span class="job-role">Technical Lead</span>
+                    <span class="job-date">July 2019 – March 2020</span>
+                </div>
+                <ul class="job-details">
+                    <li>Led Salesforce initiatives including administration, user roles, permissions, and security governance.</li>
+                    <li>Oversaw integrations with ServiceNow and other external systems.</li>
+                    <li>Managed migration from Salesforce Classic to Lightning Experience.</li>
+                    <li>Drove testing and deployment automation using Jenkins and GitHub.</li>
+                </ul>
+            </div>
+
+            <!-- JOB 4 -->
+            <div class="job-card">
+                <div class="job-header">
+                    <h3>Data Scan Technologies</h3>
+                    <span class="job-role">Salesforce Developer</span>
+                    <span class="job-date">July 2017 – June 2019</span>
+                </div>
+                <ul class="job-details">
+                    <li>Developed custom Visualforce pages, Apex classes, triggers, and Lightning Web Components (LWC).</li>
+                    <li>Managed data migration and integration, including bulk operations and ETL processes.</li>
+                    <li>Improved system performance through code optimization and SOQL query tuning.</li>
+                </ul>
+            </div>
+
+            <!-- JOB 5 -->
+            <div class="job-card">
+                <div class="job-header">
+                    <h3>IBM, India</h3>
+                    <span class="job-role">Web Developer</span>
+                    <span class="job-date">July 2013 – March 2015</span>
+                </div>
+                <ul class="job-details">
+                    <li>Developed a movie-rating and review-summarization system using latent semantic analysis.</li>
+                    <li>Built a digital timesheet tracking system for employee progress monitoring.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Achievements -->
+    <section id="education">
+        <div class="container two-col-grid">
+            <div class="col-box">
+                <h3>Education</h3>
+                <ul>
+                    <li><strong>Southern New Hampshire University</strong><br>Master of Science, Computers and Information Sciences</li>
+                    <li><strong>Jawaharlal Nehru Technological University</strong><br>Bachelor of Computer Science</li>
+                </ul>
+            </div>
+            <div class="col-box">
+                <h3>Achievements & Leadership</h3>
+                <ul>
+                    <li>Founder of <strong>AI TestGenie</strong> – AI-powered Chrome extension (Chrome Web Store).</li>
+                    <li>Contributor and author at <strong>SalesforceBen</strong>.</li>
+                    <li>Trailblazer Leader & State-level basketball player (2008).</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Details</h2>
+            <div class="contact-simple">
+                <p><strong>Sai Akshitha Gaddam</strong></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:gsaiak.94@gmail.com">gsaiak.94@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> (603) 858-9590</p>
+                <p>San Francisco Bay Area, CA</p>
+                <div class="bottom-socials">
+                    <a href="https://linkedin.com/in/saiakshithag" target="_blank">LinkedIn</a> | 
+                    <a href="https://github.com/Saiakshithagaddamsag" target="_blank">GitHub</a> | 
+                    <a href="https://www.salesforce.com/trailblazer/sgaddam22" target="_blank">Trailblazer</a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Sai Akshitha Gaddam. All rights reserved.</p>
+        <p>&copy; 2025 Sai Akshitha Gaddam.</p>
     </footer>
 
     <!-- Scripts -->
