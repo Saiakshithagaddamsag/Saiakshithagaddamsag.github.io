@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
     
     <!-- Font Awesome (for icons) -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -21,18 +21,19 @@
         <div class="container nav-container">
             <div class="logo">SAI AKSHITHA GADDAM</div>
             <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="https://github.com/Saiakshithagaddamsag" target="_blank">Github</a></li>
-                <li><a href="https://linkedin.com/in/saiakshithag" target="_blank">Linkedin</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <!-- External Links -->
+                <li><a href="https://github.com/Saiakshithagaddamsag" target="_blank">GitHub</a></li>
             </ul>
         </div>
     </nav>
 
     <!-- Hero Section (Particles Background) -->
-    <header id="home">
+    <section id="home">
         <div id="particles-js"></div>
         <div class="hero-content">
             <h1>SAI AKSHITHA GADDAM</h1>
@@ -46,14 +47,14 @@
                     <i class="fab fa-linkedin"></i>
                     <span>Linkedin</span>
                 </a>
-                <a href="mailto:your-email@example.com">
-                    <i class="fas fa-envelope"></i>
-                    <span>Email</span>
+                <a href="https://www.salesforce.com/trailblazer/sgaddam22" target="_blank">
+                    <i class="fab fa-salesforce"></i>
+                    <span>Trailblazer</span>
                 </a>
             </div>
 
             <div class="hero-skills">
-                <p>| Salesforce Architect | AI & Machine Learning | Python | Neural Networks |</p>
+                <p>| Salesforce Architect | AI & Machine Learning | Python |</p>
                 <p>| CI/CD & DevOps | Automation | PhD Researcher |</p>
             </div>
             
@@ -61,13 +62,13 @@
                 <i class="fas fa-chevron-down"></i>
             </a>
         </div>
-    </header>
+    </section>
 
     <!-- About Section -->
     <section id="about">
         <div class="container about-wrapper">
             <div class="profile-img">
-                <!-- REPLACE 'profile.jpg' WITH YOUR ACTUAL IMAGE FILE NAME -->
+                <!-- Ensure you have a file named profile.jpg in assets/images/ -->
                 <img src="assets/images/profile.jpg" alt="Sai Akshitha Gaddam">
             </div>
             <div class="about-text">
@@ -82,14 +83,6 @@
                     problems with business justification. I specialize in building scalable backend services, AI models, 
                     and automation frameworks.
                 </p>
-
-                <div class="contact-details">
-                    <h3>Contact Details</h3>
-                    <p>Sai Akshitha Gaddam</p>
-                    <p>Salesforce | AI | Research</p>
-                    <p><a href="mailto:your-email@example.com">your-email@example.com</a></p>
-                </div>
-
                 <a href="Resume.pdf" class="btn-download" download>
                     <i class="fas fa-download"></i> Download Resume
                 </a>
@@ -97,16 +90,35 @@
         </div>
     </section>
 
-    <!-- Projects / Work Section -->
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">Salesforce Architecture</div>
+                <div class="skill-item">Apex & LWC</div>
+                <div class="skill-item">Python</div>
+                <div class="skill-item">Machine Learning</div>
+                <div class="skill-item">Neural Networks</div>
+                <div class="skill-item">CI/CD (DevOps)</div>
+                <div class="skill-item">Docker</div>
+                <div class="skill-item">Test Automation</div>
+                <div class="skill-item">Scikit-Learn</div>
+                <div class="skill-item">Deep Learning</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
     <section id="projects">
         <div class="container">
-            <h2>Projects & Work</h2>
+            <h2 class="section-title">Projects & Work</h2>
             
             <div class="project-item">
                 <h3>AI TestGenie (Salesforce)</h3>
                 <p class="role">Founder & Lead Developer</p>
                 <p>Designed and developed an AI-driven testing framework for Salesforce environments to automate regression testing.</p>
-                <a href="https://github.com/Saiakshithagaddamsag/AITestGenie" class="project-link">View on GitHub</a>
+                <a href="https://github.com/Saiakshithagaddamsag/AITestGenie" class="project-link" target="_blank">View on GitHub</a>
             </div>
 
             <div class="project-item">
@@ -119,26 +131,86 @@
                 <h3>Computational Intelligence</h3>
                 <p class="role">Neural Networks Research</p>
                 <p>Deep learning projects utilizing Python, NumPy, Pandas, and Scikit-Learn for predictive modeling.</p>
-                <a href="https://github.com/Saiakshithagaddamsag/ComputationalIntelligence_NeuralNetworks" class="project-link">View Repository</a>
+                <a href="https://github.com/Saiakshithagaddamsag/ComputationalIntelligence_NeuralNetworks" class="project-link" target="_blank">View Repository</a>
             </div>
         </div>
     </section>
 
-    <!-- Footer / Contact -->
-    <section id="contact">
+    <!-- Contact Portal Section -->
+    <section id="contact" class="portal-section">
         <div class="container">
-            <div class="footer-icons">
-                <a href="https://github.com/Saiakshithagaddamsag"><i class="fab fa-github"></i><br>Github</a>
-                <a href="https://linkedin.com/in/saiakshithag"><i class="fab fa-linkedin"></i><br>Linkedin</a>
-                <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i><br>Email</a>
+            <h2 class="section-title">Contact Portal</h2>
+            
+            <div class="portal-container">
+                <!-- Left Side: Contact Info -->
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>Interested in Salesforce architecture, AI research, or collaboration? Drop a message below.</p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>San Francisco Bay Area, CA</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <!-- Replace with your actual email -->
+                        <span>your-email@example.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/saiakshithag</span>
+                    </div>
+                </div>
+    
+                <!-- Right Side: The Webform -->
+                <!-- IMPORTANT: Register at Formspree.io and paste your ID below -->
+                <form id="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" class="portal-form">
+                    
+                    <div class="input-group">
+                        <input type="text" name="name" id="name" required>
+                        <label for="name">Full Name</label>
+                        <span class="bar"></span>
+                    </div>
+    
+                    <div class="input-group">
+                        <input type="email" name="email" id="email" required>
+                        <label for="email">Email Address</label>
+                        <span class="bar"></span>
+                    </div>
+    
+                    <div class="input-group">
+                        <textarea name="message" id="message" rows="4" required></textarea>
+                        <label for="message">Your Message</label>
+                        <span class="bar"></span>
+                    </div>
+    
+                    <button type="submit" class="portal-btn">
+                        <span>Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    
+                    <p id="form-status"></p>
+                </form>
             </div>
-            <p class="copyright">&copy; 2025 Sai Akshitha Gaddam. All rights reserved.</p>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sai Akshitha Gaddam. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <a href="#" class="to-top">
+        <i class="fas fa-chevron-up"></i>
+    </a>
 
     <!-- Scripts -->
     <!-- Particles.js Library -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Custom Main JS -->
     <script src="assets/js/main.js"></script>
 </body>
 </html>
