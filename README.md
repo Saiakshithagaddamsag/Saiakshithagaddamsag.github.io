@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Sai Akshitha Gaddam - Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 900px; margin: 40px auto; line-height: 1.6; color: #333; }
-    h1, h2 { color: #1a73e8; }
-    ul { list-style-type: none; padding-left: 0; }
-    li { margin-bottom: 8px; }
-    a { color: #1a73e8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .section { margin-bottom: 40px; }
-  </style>
-</head>
 <body>
 
   <h1>Sai Akshitha Gaddam</h1>
@@ -55,4 +40,3 @@
   </div>
 
 </body>
-</html>
